@@ -35,6 +35,7 @@ if ('development' == app.get('env')) {
 }
 
 // Add routes here
+//var data = require('./routes/index');
 app.get('/', index.view);
 // Example route
 // app.get('/users', user.list);
